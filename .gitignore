@@ -1,0 +1,60 @@
+# Wails 构建产物
+.task
+bin/
+
+# 前端构建产物和依赖
+frontend/dist/
+frontend/node_modules/
+frontend/.nuxt/
+frontend/.output/
+frontend/.backup/
+
+# 前端缓存和临时文件
+frontend/.cache/
+frontend/.vite/
+frontend/.DS_Store
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 编辑器和 IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 操作系统文件
+Thumbs.db
+Desktop.ini
+
+# 构建相关
+build/linux/appimage/build/
+build/windows/nsis/MicrosoftEdgeWebview2Setup.exe
+build/darwin/*/build/
+
+# Go 相关
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+go.work.sum
+
+# 环境变量和配置
+.env
+.env.local
+.env.*.local
+
+# 备份文件
+*.bak
+*.backup
+*~
